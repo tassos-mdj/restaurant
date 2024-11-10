@@ -4,6 +4,8 @@ body {
     background-image: url("./background.jpg");
     background-size: cover;
     align-items: stretch;
+    font-size: 16px;
+    padding-top: 5rem;
 
 }
 
@@ -32,6 +34,7 @@ button:active {
         "heading heading heading"
         "card1 card2 card3";
     margin: 0 20%;
+    gap: 2rem;
 }
 
 .h1 {
@@ -39,3 +42,15 @@ button:active {
     justify-self: center;
     font-size: 4rem;
 }
+
+#card1, #card2, #card3 {
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    background-color: rgba(197, 197, 197, 0.5);
+    padding: 1rem;
+    
+}
+
+
+  
