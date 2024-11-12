@@ -1,5 +1,7 @@
-// import { content } from "./index.js";
-const content = document.getElementById("content");
+import { content } from "./index.js";
+
+export function createHome(){
+const cardsContent = 
 [
       {
         h2: "The most delicious!",
@@ -19,28 +21,28 @@ const content = document.getElementById("content");
       }
     
   ];
+  
+    
+    const wrapper = document.createElement("div");
+    const h1 = document.createElement("h1");
+    h1.textContent = "Welcome to Mdj food bar!";
+    wrapper.appendChild(h1);
 
-
-  for (let i=0; i > 2; ++i) {
-    let newCard = document.createElement('div');
-    ({h2, p} = cardsContent[i]);
-    let newH2 = document.createElement("h2");
-    newH2.textContent = h2;
-    console.log(newH2);
-    let newP = document.createElement("p");
-    newP.textContent = p;
-    newCard.appendChild(newH2);
-    newCard.appendChild(newP);
-    content.appendChild(newCard);
+    for (let i = 0; i < 3; i++) {
+      let newCard = document.createElement('div');
+      let cardId = 'card' + i;
+      newCard.setAttribute("id", cardId);
+      // ({h2, p} = cardsContent[i]);
+      let newH2 = document.createElement("h2");
+      newH2.textContent = h2;
+      let newP = document.createElement("p");
+      newP.textContent = p;
+      newCard.appendChild(newH2);
+      newCard.appendChild(newP);
+      wrapper.appendChild(newCard);
+      
+    };
+    
+    console.log('running createHome');
+    return wrapper;
   }
-
-
-// console.log(JSON.stringify(cardsContent, null, 2));
-
-
-// export function createHome(){
-//     const wrapper = document.createElement("div");
-//     const h1 = document.createElement("h1");
-//     h1.textContent = "Welcome to Mdj food bar!";
-
-// }

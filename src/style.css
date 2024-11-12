@@ -43,7 +43,7 @@ button:active {
     font-size: 4rem;
 }
 
-#card1, #card2, #card3 {
+#card0, #card1, #card2 {
     text-align: center;
     font-size: 1.3rem;
     border-radius: 40px;
