@@ -32,7 +32,17 @@ button:active {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
         "heading heading heading"
-        "card1 card2 card3";
+        "card card card";
+    margin: 0 20%;
+    gap: 2rem;
+}
+
+#wrapper-v {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "heading"
+        "card";
     margin: 0 20%;
     gap: 2rem;
 }
@@ -43,7 +53,7 @@ button:active {
     font-size: 4rem;
 }
 
-#card0, #card1, #card2 {
+.card {
     text-align: center;
     font-size: 1.3rem;
     border-radius: 40px;
