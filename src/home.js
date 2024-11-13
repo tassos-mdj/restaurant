@@ -1,5 +1,4 @@
 import { content } from "./index.js";
-
 export function createHome(){
 const cardsContent = 
 [
@@ -23,8 +22,11 @@ const cardsContent =
   ];
   
     
+    content.innerHTML = "";
     const wrapper = document.createElement("div");
+    wrapper.setAttribute('id', 'wrapper');
     const h1 = document.createElement("h1");
+    h1.classList.add('h1');
     h1.textContent = "Welcome to Mdj food bar!";
     wrapper.appendChild(h1);
 
@@ -32,7 +34,8 @@ const cardsContent =
       let newCard = document.createElement('div');
       let cardId = 'card' + i;
       newCard.setAttribute("id", cardId);
-      // ({h2, p} = cardsContent[i]);
+      let h2 = cardsContent[i].h2;
+      let p = cardsContent[i].p;
       let newH2 = document.createElement("h2");
       newH2.textContent = h2;
       let newP = document.createElement("p");
