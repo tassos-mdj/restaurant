@@ -43,7 +43,7 @@ button:active {
     grid-template-areas: 
         "heading"
         "card";
-    margin: 0 20%;
+    margin: 0 15%;
     gap: 2rem;
 }
 
@@ -62,5 +62,36 @@ button:active {
     
 }
 
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "menu-item-no menu-item-title menu-item-price"
+        "menu-item-description menu-item-description menu-item-description";
+}
+
+.menu-item-no {
+    grid-area: menu-item-no;
+}
+
+.menu-item-title {
+    grid-area: menu-item-title;
+}
+
+.menu-item-price {
+    grid-area: menu-item-price;
+}
+
+.menu-item-description {
+    grid-area: menu-item-description;
+    font-size: 1rem;
+}
 
   
