@@ -27,6 +27,10 @@ button:active {
     text-decoration: underline;
 }
 
+#content {
+    margin-bottom: 5rem;
+}
+
 #wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -92,6 +96,10 @@ button:active {
 .menu-item-description {
     grid-area: menu-item-description;
     font-size: 1rem;
+}
+
+.map {
+    width: 100%;
 }
 
   

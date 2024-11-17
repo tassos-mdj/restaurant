@@ -29,5 +29,5 @@ const para = [
     "At Mdj food bar, we are more than just a restaurant; we are a community of food aficionados, a family dedicated to bringing you the finest culinary delights that Comfort Cuisine has to offer. Our talented team of chefs hail from various regions of the globe, each bringing their unique flair to our kitchen. Their collective expertise ensures that every dish is a masterful blend of traditional techniques and innovative twists, resulting in a gastronomic adventure that delights the senses and satisfies the soul.",
     "Our mission is to not only serve exceptional food but to also provide a space where memories are made. Whether it's a romantic dinner for two, a lively gathering with friends and family, or a business meeting sealed with a handshake over a shared plate, we strive to exceed your expectations with our impeccable service and cozy ambiance.",
     "Our commitment to quality starts with our ingredients, which we source from local markets and artisanal producers who share our dedication to sustainability and ethical farming. We believe that the best dishes are those that are made with love, care, and respect for the environment. This is why we are proud to support local suppliers and showcase the freshest produce in our dishes."
-]
+];
 

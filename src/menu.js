@@ -104,12 +104,11 @@ const cardsContent =
     }
     ,
     {
-      h2: "Appetizers & Sharables",
-      p: ["1. Southern Fried Green Tomatoes - $9.50 - Crispy outside, juicy inside, served with zesty remoulade sauce.",
-        "2. Mac 'n' Cheese Bites - $10.95 - Gooey cheddar mac 'n' cheese bites, breaded and fried to golden perfection.",
-        "3. Loaded Potato Skins - $12.95 - Baked potato skins filled with sour cream, cheese, bacon, and chives.",
-        "4. Chicken Tender Platter - $11.95 - Hand-breaded tenders served with honey mustard and BBQ sauces.",
-        "5. Onion Rings - $8.95 - Beer-battered onions rings with a side of smoky mayo dip."
+      h2: "Sandwiches & Wraps",
+      p: ["18 - Grilled Cheese & Tomato Soup - $12.95 - Classic grilled cheese sandwich served with a side of warm tomato soup.",
+          "19 - Philly Cheesesteak - $14.95 - Thinly sliced beef, melted cheese, onions, and peppers on a hoagie roll.",
+          "20 - Chicken Parmesan - $13.95 - Breaded chicken breast smothered in marinara and mozzarella cheese.",
+          "21 - Turkey Club - $12.95 - Oven-roasted turkey, bacon, avocado, and Swiss cheese on toasted sourdough."
       ]
     }
     
