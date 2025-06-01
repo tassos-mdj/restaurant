@@ -10,7 +10,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tassos-Mdj",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
